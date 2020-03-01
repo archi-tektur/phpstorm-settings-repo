@@ -5,6 +5,7 @@
         <option value="Web:LinkToImageCheck" />
         <option value="javascript:S905" />
         <option value="php:S1192" />
+        <option value="php:S1448" />
       </set>
     </option>
   </component>

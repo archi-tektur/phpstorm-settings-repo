@@ -2,10 +2,56 @@
   <component name="SonarLintGlobalSettings">
     <option name="excludedRules">
       <set>
-        <option value="Web:LinkToImageCheck" />
+        <option value="Web:HeaderCheck" />
         <option value="javascript:S905" />
         <option value="php:S1192" />
         <option value="php:S1448" />
+      </set>
+    </option>
+    <option name="fileExclusions">
+      <list>
+        <option value="vendor/**/*.*" />
+      </list>
+    </option>
+    <option name="includedRules">
+      <set>
+        <option value="Web:AvoidHtmlCommentCheck" />
+        <option value="Web:DoubleQuotesCheck" />
+        <option value="Web:DynamicJspIncludeCheck" />
+        <option value="Web:FileLengthCheck" />
+        <option value="Web:IllegalElementCheck" />
+        <option value="Web:IllegalNamespaceCheck" />
+        <option value="Web:IllegalTabCheck" />
+        <option value="Web:IllegalTagLibsCheck" />
+        <option value="Web:ImgWithoutWidthOrHeightCheck" />
+        <option value="Web:InlineStyleCheck" />
+        <option value="Web:InputWithoutLabelCheck" />
+        <option value="Web:InternationalizationCheck" />
+        <option value="Web:JspScriptletCheck" />
+        <option value="Web:LinkToNothingCheck" />
+        <option value="Web:LinksIdenticalTextsDifferentTargetsCheck" />
+        <option value="Web:LongJavaScriptCheck" />
+        <option value="Web:MaxLineLengthCheck" />
+        <option value="Web:MouseEventWithoutKeyboardEquivalentCheck" />
+        <option value="Web:MultiplePageDirectivesCheck" />
+        <option value="Web:NonConsecutiveHeadingCheck" />
+        <option value="Web:PageWithoutFaviconCheck" />
+        <option value="Web:RequiredAttributeCheck" />
+        <option value="Web:S1436" />
+        <option value="Web:S1829" />
+        <option value="Web:UnclosedTagCheck" />
+        <option value="Web:UnifiedExpressionCheck" />
+        <option value="Web:WhiteSpaceAroundCheck" />
+        <option value="Web:WmodeIsWindowCheck" />
+        <option value="javascript:S1442" />
+        <option value="javascript:S2898" />
+        <option value="php:S1124" />
+        <option value="php:S1131" />
+        <option value="php:S117" />
+        <option value="php:S1766" />
+        <option value="php:S1784" />
+        <option value="php:S1799" />
+        <option value="php:S1990" />
       </set>
     </option>
   </component>

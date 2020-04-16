@@ -20,5 +20,6 @@
     <entry key="search.everywhere.settings" value="true" />
     <entry key="documentation.show.toolbar" value="true" />
     <entry key="ide.tree.ui.experimental" value="false" />
+    <entry key="debugger.watches.in.variables" value="false" />
   </component>
 </application>

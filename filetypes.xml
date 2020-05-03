@@ -4,6 +4,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="ods" type="PLAIN_TEXT" />
       <mapping ext="keystore" type="PLAIN_TEXT" />
+      <mapping ext="yaml " type="PLAIN_TEXT" />
       <mapping ext="der" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="p12" type="PLAIN_TEXT" />

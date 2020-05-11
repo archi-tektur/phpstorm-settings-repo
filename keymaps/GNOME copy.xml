@@ -2,6 +2,9 @@
   <action id="Macro.Format &amp; save">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
+  <action id="Macro.Save &amp; format">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>

@@ -4,6 +4,7 @@
       <set>
         <option value="Web:HeaderCheck" />
         <option value="javascript:S905" />
+        <option value="php:S112" />
         <option value="php:S1142" />
         <option value="php:S1192" />
         <option value="php:S1448" />

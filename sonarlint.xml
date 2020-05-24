@@ -8,6 +8,7 @@
         <option value="php:S1142" />
         <option value="php:S1192" />
         <option value="php:S1448" />
+        <option value="php:S1488" />
       </set>
     </option>
     <option name="fileExclusions">

@@ -1,10 +1,13 @@
 <application>
   <component name="GithubAccounts">
+    <account id="af4b1ce6-6b01-4b0f-a11d-4bfc3638be19" name="oskar-barcz">
+      <server host="github.com" />
+    </account>
     <account id="353d2302-5ce0-448a-aa60-ef8094eae032" name="archi-tektur">
       <server host="github.com" />
     </account>
-    <account id="af4b1ce6-6b01-4b0f-a11d-4bfc3638be19" name="oskar-barcz">
-      <server host="github.com" />
+    <account id="352e52d9-103d-4e1d-ac41-18b93e387d8a" name="archi-tektur">
+      <server useHttp="false" host="github.com" />
     </account>
   </component>
 </application>

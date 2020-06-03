@@ -1,61 +1,55 @@
 <application>
   <component name="SonarLintGlobalSettings">
-    <option name="excludedRules">
-      <set>
-        <option value="Web:HeaderCheck" />
-        <option value="javascript:S905" />
-        <option value="php:S112" />
-        <option value="php:S1142" />
-        <option value="php:S1192" />
-        <option value="php:S1448" />
-        <option value="php:S1488" />
-      </set>
-    </option>
     <option name="fileExclusions">
       <list>
         <option value="vendor/**/*.*" />
       </list>
     </option>
-    <option name="includedRules">
-      <set>
-        <option value="Web:AvoidHtmlCommentCheck" />
-        <option value="Web:DoubleQuotesCheck" />
-        <option value="Web:DynamicJspIncludeCheck" />
-        <option value="Web:FileLengthCheck" />
-        <option value="Web:IllegalElementCheck" />
-        <option value="Web:IllegalNamespaceCheck" />
-        <option value="Web:IllegalTabCheck" />
-        <option value="Web:IllegalTagLibsCheck" />
-        <option value="Web:ImgWithoutWidthOrHeightCheck" />
-        <option value="Web:InlineStyleCheck" />
-        <option value="Web:InputWithoutLabelCheck" />
-        <option value="Web:InternationalizationCheck" />
-        <option value="Web:JspScriptletCheck" />
-        <option value="Web:LinkToNothingCheck" />
-        <option value="Web:LinksIdenticalTextsDifferentTargetsCheck" />
-        <option value="Web:LongJavaScriptCheck" />
-        <option value="Web:MaxLineLengthCheck" />
-        <option value="Web:MouseEventWithoutKeyboardEquivalentCheck" />
-        <option value="Web:MultiplePageDirectivesCheck" />
-        <option value="Web:NonConsecutiveHeadingCheck" />
-        <option value="Web:PageWithoutFaviconCheck" />
-        <option value="Web:RequiredAttributeCheck" />
-        <option value="Web:S1436" />
-        <option value="Web:S1829" />
-        <option value="Web:UnclosedTagCheck" />
-        <option value="Web:UnifiedExpressionCheck" />
-        <option value="Web:WhiteSpaceAroundCheck" />
-        <option value="Web:WmodeIsWindowCheck" />
-        <option value="javascript:S1442" />
-        <option value="javascript:S2898" />
-        <option value="php:S1124" />
-        <option value="php:S1131" />
-        <option value="php:S117" />
-        <option value="php:S1766" />
-        <option value="php:S1784" />
-        <option value="php:S1799" />
-        <option value="php:S1990" />
-      </set>
-    </option>
+    <rules>
+      <Rule key="Web:DoubleQuotesCheck" />
+      <Rule key="Web:WmodeIsWindowCheck" />
+      <Rule key="javascript:S1442" />
+      <Rule key="Web:AvoidHtmlCommentCheck" />
+      <Rule key="php:S1131" />
+      <Rule key="Web:IllegalElementCheck" />
+      <Rule key="Web:LongJavaScriptCheck" />
+      <Rule key="Web:DynamicJspIncludeCheck" />
+      <Rule active="false" key="php:S1192" />
+      <Rule key="Web:NonConsecutiveHeadingCheck" />
+      <Rule key="javascript:S2898" />
+      <Rule key="Web:LinkToNothingCheck" />
+      <Rule key="Web:S1436" />
+      <Rule key="Web:InputWithoutLabelCheck" />
+      <Rule key="Web:InlineStyleCheck" />
+      <Rule key="Web:MaxLineLengthCheck" />
+      <Rule key="php:S1799" />
+      <Rule key="Web:UnclosedTagCheck" />
+      <Rule key="Web:ImgWithoutWidthOrHeightCheck" />
+      <Rule key="php:S1990" />
+      <Rule key="Web:WhiteSpaceAroundCheck" />
+      <Rule key="Web:IllegalTabCheck" />
+      <Rule key="Web:IllegalTagLibsCheck" />
+      <Rule active="false" key="php:S112" />
+      <Rule key="php:S117" />
+      <Rule key="Web:FileLengthCheck" />
+      <Rule key="Web:S1829" />
+      <Rule active="false" key="php:S1142" />
+      <Rule key="Web:PageWithoutFaviconCheck" />
+      <Rule key="Web:MouseEventWithoutKeyboardEquivalentCheck" />
+      <Rule active="false" key="javascript:S905" />
+      <Rule key="Web:MultiplePageDirectivesCheck" />
+      <Rule key="Web:IllegalNamespaceCheck" />
+      <Rule key="php:S1766" />
+      <Rule active="false" key="Web:HeaderCheck" />
+      <Rule active="false" key="php:S1488" />
+      <Rule key="php:S1124" />
+      <Rule key="php:S1784" />
+      <Rule key="Web:InternationalizationCheck" />
+      <Rule key="Web:RequiredAttributeCheck" />
+      <Rule key="Web:UnifiedExpressionCheck" />
+      <Rule key="Web:JspScriptletCheck" />
+      <Rule active="false" key="php:S1448" />
+      <Rule key="Web:LinksIdenticalTextsDifferentTargetsCheck" />
+    </rules>
   </component>
 </application>
